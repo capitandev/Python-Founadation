@@ -42,3 +42,15 @@ else:
     print("Executed successfully without errors")
 finally:
     print("Final closing logic")
+    # General Error handlering
+try:
+    print("passed here")
+    a = car_dict. speed
+    result = car_dict["origin"]
+    print("result:", result)
+except Exception as err:
+    print("General Error:", err)
+else:
+    print("Executed successfully without errors")
+finally:
+    print("Final closing logic")
